@@ -1,0 +1,38 @@
+/target
+Cargo.lock
+/.idea
+/.near-credentials
+
+# Editor config files
+.vscode
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+.idea
+
+# Python env
+.env
+*.pyc
+venv
+
+# Node
+**/node_modules/
+
+# Integration tests
+nearlib/
+near-shell/
+create-near-app/
+near-api-js/
+nearlib_release_test/
+test-keys/
+tmp/
+
+# OS X
+.DS_Store
+
+# Logs
+*.log
+
+# Vim tmp files
+*.swp
+rusty-tags.vi
+
